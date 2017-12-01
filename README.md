@@ -1,5 +1,10 @@
 # The Pi Hut 3D Xmass Tree Examples
-## thepihut3dxmastree-examples
+
+I tried to search for other examples of code but did not find anything relating to this specific The Pi Hut 3D Xmas tree one. 
+There is the standard 'twinkle' exmaple provided and then some other buyers posted their code in the review section. Unfortunately 
+the code is not indented so would not just run after copy and paste.
+
+Why not setup a repository isntead!? Lets share examples here and then by next Christmas we will have allot of cool examples to choose from.
 
 # Setup
 
