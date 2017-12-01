@@ -12,4 +12,4 @@ Edit the file
 
 Add this line which tells cront to run this command once after reboot
 
-    @reboot python3 /home/pi/Desktop/exemple.py &
+    @reboot python3 /home/pi/thepihut3dxmastree-examples/examples/thepihit.py &
