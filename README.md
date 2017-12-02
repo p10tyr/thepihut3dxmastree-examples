@@ -16,6 +16,10 @@ Please consider contributing new examples into this repository. Provide some ful
 
 Please make sure to follow the setup instruction as on The Pi Hut site.
 
+If you are having diffculties please look at the FAQ in the Wiki link
+
+You can also run a full LED diagnostic program by running ```python diagnostics.py```
+
 # Pulling the code
 
 Make sure you have git installed.
