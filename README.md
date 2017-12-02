@@ -44,3 +44,11 @@ Edit the file
 Add this line which tells cront to run this command once after reboot
 
     @reboot python /home/pi/thepihut3dxmastree-examples/examples/thepihit.py &
+
+# Stop Autostart (or any other forked)
+
+If you want to stop the executing forked python then you can use the following command to list all processes. Find the PID of your process (should be near bottom in the hundreds range) and then sudo kill <pid>
+
+    ps aux
+    sudo kill ####
+    
