@@ -10,7 +10,11 @@ Why not setup a repository isntead!? Lets share examples here and then by next C
 
 # Contributing
 
-Please consider contributing new examples into this repository. Provide some full credits if you found code else where and some basic description
+Please consider contributing new examples into this repository. Provide some full credits if you found code else where and some basic description. 
+- You can create an issue and label it `more-examples`
+- Fork the repository and add your own code and merge back here
+
+Visit the Wiki (https://github.com/ppumkin/thepihut3dxmastree-examples/wiki) to find more-examples 
 
 # Setup
 
