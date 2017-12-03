@@ -30,7 +30,7 @@ fields = [
 ]
 
 
-for field in fields
+for field in fields:
     x = field[0]
     led = LED(int(x))
     led.off()
