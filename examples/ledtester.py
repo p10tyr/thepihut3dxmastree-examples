@@ -29,6 +29,12 @@ fields = [
   ("27", "LED 11", "13"),
 ]
 
+
+for field in fields:
+    x = field[0]
+    led = LED(int(x))
+    led.off()
+
 print('\x1b[4;37;40m' + "LED NO.        GPIO NO.  PIN NO." + '\x1b[0m')
 
 for field in fields:
