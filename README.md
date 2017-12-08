@@ -30,7 +30,7 @@ Make sure you have git installed.
 
 Then if you logging in with the default pi account you type in the following
 
-    git pull https://github.com/ppumkin/thepihut3dxmastree-examples.git
+    git clone https://github.com/ppumkin/thepihut3dxmastree-examples.git
 
 That will pull the example code into the directory /home/pi/thepihut3dxmastree-examples/examples
 Obviosly if you use another account the home directory name will change
