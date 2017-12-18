@@ -51,7 +51,7 @@ Edit the file
 
 Add this line which tells cront to run this command once after reboot
 
-    @reboot python /home/pi/thepihut3dxmastree-examples/examples/thepihit.py &
+    @reboot python /home/pi/thepihut3dxmastree-examples/examples/thepihut.py &
 
 # Stop Autostart (or any other forked)
 
