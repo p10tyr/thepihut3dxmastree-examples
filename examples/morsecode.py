@@ -52,11 +52,13 @@ CODE = {' ': ' ',
 
 led = LED(2)
 
+
 def dot():
     led.on()
     sleep(0.2)
     led.off()
     sleep(0.2)
+
 
 def dash():
     led.on()
@@ -64,15 +66,16 @@ def dash():
     led.off()
     sleep(0.2)
 
+
 while True:
-    input = raw_input('What would you like to send? ')
+    input = input('What would you like to send? ')
     for letter in input:
-            for symbol in CODE[letter.upper()]:
-                if symbol == '-':
-                    dash()
-                elif symbol == '.':
-                    dot()
-                else:
-                    sleep(0.5)
-            sleep(0.5)
+        for symbol in CODE[letter.upper()]:
+            if symbol == '-':
+                dash()
+            elif symbol == '.':
+                dot()
+            else:
+                sleep(0.5)
+        sleep(0.5)
     print("Message Sent!")
