@@ -79,7 +79,7 @@ sudo kill ####
 Hi there! Andy Piper (@andypiper) adjusted the code in this repo to bring it up-to-date for the latest Raspberry Pi OS distribution (based on Debian Bullseye), and to make it happier running with Python 3, which is now the default.
 
 - corrected typos
-- ran the [Python `2to3` program(https://docs.python.org/3/library/2to3.html)] over the samples
+- ran the [Python `2to3` program](https://docs.python.org/3/library/2to3.html) over the samples
 - ran linters to format things nicely for readability
 - re-tested the examples
 
