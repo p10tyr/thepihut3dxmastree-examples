@@ -1,4 +1,4 @@
-#3dxmastree #pihut3dxmastree #thepihut3dxmastree
+3dxmastree pihut3dxmastree thepihut3dxmastree
 
 ### Alternatives
 
