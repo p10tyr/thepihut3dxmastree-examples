@@ -23,7 +23,7 @@ Please consider contributing new examples into this repository. Provide some ful
 - You can create an issue and label it `more-examples`
 - Fork the repository and add your own code and merge back here
 
-Visit [the Wiki](https://github.com/ppumkin/thepihut3dxmastree-examples/wiki) to find more examples.
+Visit [the Wiki](https://github.com/p10tyr/thepihut3dxmastree-examples/wiki) to find more examples.
 
 ## Setup
 
@@ -40,7 +40,7 @@ Make sure you have git installed.
 If you're logging in with the default `pi` account, enter the following:
 
 ```shell
-git clone https://github.com/ppumkin/thepihut3dxmastree-examples.git
+git clone https://github.com/p10tyr/thepihut3dxmastree-examples.git
 ```
 
 This will pull the example code into the directory `/home/pi/thepihut3dxmastree-examples/examples`. If you use another account, the home directory name will change.
