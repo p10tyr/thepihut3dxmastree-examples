@@ -40,23 +40,23 @@ Make sure you have git installed.
 If you're logging in with the default `pi` account, enter the following:
 
 ```shell
-git clone https://github.com/p10tyr/thepihut3dxmastree-examples.git
+~ $ > git clone https://github.com/p10tyr/thepihut3dxmastree-examples.git
 ```
 
-This will pull the example code into the directory `/home/pi/thepihut3dxmastree-examples/examples`. If you use another account, the home directory name will change.
+This will pull the example code into your home directory `~/thepihut3dxmastree-examples/examples`
 
 There is a simple script, `3dxmas.sh`, which will present a menu of examples to run. You will need to install the dialog package, then run the script.
 
 ```shell
-sudo apt install dialog
-./3dxmas.sh
+~/thepihut3dxmastree-examples $ > sudo apt-get install dialog
+~/thepihut3dxmastree-examples $ > ./3dxmas.sh
 ```
 
 You can also run each example manaully, for example:
 
 ```shell
-cd /home/pi/thepihut3dxmastree-examples/examples
-python thepihut.py
+~ $ > cd ~/thepihut3dxmastree-examples/examples
+~/thepihut3dxmastree-examples/examples $ > python3 thepihut.py
 ```
 
 Each example will block the console, so if you want you can add & and it fork into a new thread and keep running.
@@ -71,7 +71,7 @@ Edit the file
 
 Add this line which tells cront to run this command once after reboot
 
-`@reboot python /home/pi/thepihut3dxmastree-examples/examples/thepihut.py &`
+`@reboot python3 ~/thepihut3dxmastree-examples/examples/thepihut.py &`
 
 ## Stop Autostart (or any other forked process)
 
@@ -81,6 +81,10 @@ If you want to stop the executing forked Python then you can use the following c
 ps aux
 sudo kill ####
 ```
+
+## 2024 update
+Mainly updated the readme to reflect repo name change and use python3. 
+Checked everything out and still seems to work fine.
 
 ## 2021 update
 
