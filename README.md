@@ -1,12 +1,6 @@
-3dxmastree pihut3dxmastree thepihut3dxmastree
+#3dxmastree #pihut3dxmastree #thepihut3dxmastree
 
-### Alternatives
-
-https://github.com/davesteele/pihut-xmas-asyncio
-
-https://gist.github.com/rbnpi/5f5e9356e627d1cbc52086efbb56456c
-
-# The Pi Hut 3D Xmas Tree Examples
+# 🎄 3D Christmass tree examples 
 
 I tried to search for other examples of code but did not find anything relating to this specific The Pi Hut 3D Xmas tree one.
 There is the standard 'twinkle' example provided, and then some other buyers posted their code in the review section. Unfortunately
@@ -16,16 +10,18 @@ I copied all the examples I could find there and added them here, with full cred
 
 Why not setup a repository instead!? Lets share examples here, and then each Christmas we will have a lot of cool examples to choose from.
 
-## Contributing
 
-Please consider contributing new examples into this repository. Provide some full credits if you found code else where and some basic description.
+## The Pi Hut - 3D Xmas Tree for Raspberry Pi - Examples 
 
-- You can create an issue and label it `more-examples`
-- Fork the repository and add your own code and merge back here
+Tested and working sinve 2017
 
-Visit [the Wiki](https://github.com/p10tyr/thepihut3dxmastree-examples/wiki) to find more examples.
+(Pi 1, Pi2, Pi3, Pi Zero, Pi Zero W)
 
-## Setup
+## The Pi Hut - 3D RGB Xmas Tree for Raspberry Pi - Examples 
+
+I guess I gotta buy one. Will upadate with any info 😁
+
+# Setup
 
 Please make sure to follow the setup instruction as on The Pi Hut site.
 
@@ -43,14 +39,7 @@ If you're logging in with the default `pi` account, enter the following:
 ~ $ > git clone https://github.com/p10tyr/thepihut3dxmastree-examples.git
 ```
 
-This will pull the example code into your home directory `~/thepihut3dxmastree-examples/examples`
-
-There is a simple script, `3dxmas.sh`, which will present a menu of examples to run. You will need to install the dialog package, then run the script.
-
-```shell
-~/thepihut3dxmastree-examples $ > sudo apt-get install dialog
-~/thepihut3dxmastree-examples $ > ./3dxmas.sh
-```
+This will pull the example code into your home directory `~/thepihut3dxmastree-examples`
 
 You can also run each example manaully, for example:
 
@@ -59,19 +48,28 @@ You can also run each example manaully, for example:
 ~/thepihut3dxmastree-examples/examples $ > python3 thepihut.py
 ```
 
+Or there is a simple script, `3dxmas.sh`, which will present a menu of examples to run. You will need to install the dialog package, then run the script.
+
+```shell
+~/thepihut3dxmastree-examples $ > sudo apt-get install dialog
+~/thepihut3dxmastree-examples $ > ./3dxmas.sh
+```
+
 Each example will block the console, so if you want you can add & and it fork into a new thread and keep running.
 
 ## Autostart
 
 The easiest way I found to get a Python script going was to use  crontab.
 
-Edit the file
+Edit the file without sudo to create a a cron tab that will run as your user. (If you have sudo that runs as root and wont work)
 
-`sudo crontab -e`
+`crontab -e`
 
-Add this line which tells cront to run this command once after reboot
+Add this line which tells cront to run this command once after reboot.
 
 `@reboot python3 ~/thepihut3dxmastree-examples/examples/thepihut.py &`
+
+Change `../thepihut.py` to any file you would like running forked on boot
 
 ## Stop Autostart (or any other forked process)
 
@@ -81,6 +79,21 @@ If you want to stop the executing forked Python then you can use the following c
 ps aux
 sudo kill ####
 ```
+
+## Contributing
+
+Please consider contributing new examples into this repository. Provide some full credits if you found code else where and some basic description.
+
+- You can create an issue and label it `more-examples`
+- Fork the repository and add your own code and merge back here
+
+Visit [the Wiki](https://github.com/p10tyr/thepihut3dxmastree-examples/wiki) to find more examples.
+
+### Alternatives
+
+https://github.com/davesteele/pihut-xmas-asyncio
+
+https://gist.github.com/rbnpi/5f5e9356e627d1cbc52086efbb56456c
 
 ## 2024 update
 Mainly updated the readme to reflect repo name change and use python3. 
