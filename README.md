@@ -10,6 +10,16 @@ I copied all the examples I could find there and added them here, with full cred
 
 Why not setup a repository instead!? Lets share examples here, and then each Christmas we will have a lot of cool examples to choose from.
 
+### Alternatives
+
+https://github.com/davesteele/pihut-xmas-asyncio
+
+https://github.com/rendzina/XmasTree (3D RGB examples)
+
+https://github.com/mcrigby/rgbxmastree (Run using .NET using this Nuget Package)
+
+https://gist.github.com/rbnpi/5f5e9356e627d1cbc52086efbb56456c
+
 
 ## The Pi Hut - 3D Xmas Tree for Raspberry Pi - Examples 
 
@@ -20,6 +30,13 @@ Tested and working sinve 2017
 ## The Pi Hut - 3D RGB Xmas Tree for Raspberry Pi - Examples 
 
 I guess I gotta buy one. Will upadate with any info 😁
+
+Comment found on PiHut to use esp8233 and Aircookie WLED project (which is an awesome project for everything LED!)
+> This has 25 APA102 LEDs which run using SPI, so there are only 4 pins used: 5v, ground, clock and data. I decided not to use a raspiberry pi for this and instead hooked it up to a nodemcu (esp8266) which has integrated wifi. I connected pin 39 from the tree to ground on the nodemcu, pin 2 to 5v, pin 31 to D4 and pin 23 to D3. No external power or level shifter is required.
+> 
+> I then flashed the excellent WLED by Aircookie - https://github.com/Aircoookie/WLED (make sure you grab the APA102 variant from the available bin files)which has tons of effects and features all easily controlled by the android/ios apps, web page or home assistant etc. You can even sync the effects and colours with other sets of completely independent lights over wifi!
+> The end result is fantastic - https://www.dropbox.com/s/33y8pq1oxk8kfd8/20191214_201640.jpg?dl=0
+> Image pasted below in case you dont fancy checking drop box links
 
 # Setup
 
@@ -89,11 +106,13 @@ Please consider contributing new examples into this repository. Provide some ful
 
 Visit [the Wiki](https://github.com/p10tyr/thepihut3dxmastree-examples/wiki) to find more examples.
 
-### Alternatives
 
-https://github.com/davesteele/pihut-xmas-asyncio
 
-https://gist.github.com/rbnpi/5f5e9356e627d1cbc52086efbb56456c
+### Images
+
+Xmas Tree RGB running on esp8266 and WLED
+![image](https://github.com/user-attachments/assets/3161544f-5292-4f8e-9b72-27286361ca8d)
+
 
 ## 2024 update
 Mainly updated the readme to reflect repo name change and use python3. 
